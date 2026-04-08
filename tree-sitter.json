@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "tspipe",
+      "camelcase": "TsPipe",
+      "title": "tree-sitter-pipe",
+      "scope": "source.tspipe",
+      "file-types": [
+        "pipe"
+      ],
+      "injection-regex": "^tspipe$",
+      "class-name": "TreeSitterTspipe"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A Tree-sitter parser that maps out your hierarchical structures using pipeline (|) characters. It's giving peak organization and clean data reads.",
+    "authors": [
+      {
+        "name": "Hanvim",
+        "email": "marifatalhanif@gmail.com",
+        "url": "https://github.com/marifat0"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/marifat0/tree-sitter-pipe"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
